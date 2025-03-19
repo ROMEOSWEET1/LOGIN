@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+body{
+    
+    height: 100vh;
+    background-color:rgb(250, 168, 4);
+    background:linear-gradient(to right,rgb(143, 82, 48)) pink;
+}  
+
+.container{
+
+    padding: 1.5rem;
+    background-color:palegreen;
+    width:60rem;
+    margin :2.0rem;
+    border-radius: 3%;
+    box-shadow: 1px 50px 50px 30px black;
+    overflow: hidden;
+}
+.form{
+    margin:0  2rem;
+}
+    .form-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.3rem ;
+    color: black;
+    margin-bottom:0.4rem;
+}
+input{
+    color:inherit;
+    width:100%; 
+    background-color:transparent;
+    border: none;
+    border-bottom: 1rem solid white;
+    font-size:2rem;
+    padding-left: 1.5rem;
+}
+
+.input-group{
+    padding:1px;
+    position: relative;
+}
+.input-group i{
+    position: absolute;
+    color: red;
+    font-size: 1.5rem;
+}
+ input-focus{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid hs(327,90%,28%);
+}
+input::placeholder{
+    color: transparent;
+} 
+label{
+    color:gray;
+    position:relative;
+    left: 1.2rem;
+    top:1.3rem;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+  input:focus-lable,input:no(:placeholder-shown)-lable  {
+top:-3rem;
+color:hsl(327,90%,28%);
+font-size: 3rem;
+}    
+  .recover{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom:1rem ;
+}
+.recover a{
+    text-decoration: none;
+    color:rgb(125,125,235);
+} 
+ .recover a:hover{
+    color:blue;
+    text-decoration: underline;
+ } 
+ .btn{
+    border-radius: 1.2rem;
+    font-size: 2.1rem;
+    padding:2rem;
+    background-color: black;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    transition: 0.9s ease;
+    scroll-behavior: smooth;
+ }
+ .btn:hover{
+   color:black; 
+   background-color: rgb(114, 68, 68);
+   transition: all;
+}
+.or{
+    font-size:2rem ;
+    text-align: center;
+    margin-top:1rem
+}
+.icons{
+    text-align: center;
+    font-size: xx-large;
+}
+.icons i{
+    color:  rgb(125,125,235);
+    padding:0.8rem 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin:0.9rem;
+    transition:1s ease;
+    border:.5rem solid #dfe9f5;
+    transition: 0.5s ease;
+    scroll-behavior: smooth;
+    box-shadow: 2rem 6px 9px  black;
+}
+.icons i:hover{
+    transform: scale(1.1);
+    background-color: black;
+}
+
+.links{
+    display:flex;
+    padding: 0 4rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+button{
+    font-size: x-large;
+    border: none;
+    background-color: transparent;
+    font-weight:3rem ;
+    color: red;
+    font-size:2rem; 
+}
+button:hover{
+    text-decoration: none;
+    color: blue;
+}
+#singUpButton{
+    display: flex;
+    align-items: flex-start;
+}
